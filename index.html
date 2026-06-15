@@ -1,0 +1,414 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>SparkClean | Professional Cleaning Services SA</title>
+  <meta name="description" content="Professional, reliable, and eco-friendly cleaning services in Johannesburg, Pretoria &amp; Gauteng. Residential • Commercial • Deep Cleaning.">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Flatpickr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="icon.jpeg">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container header-container">
+    <div class="logo">
+      <a href="#home">
+        <i class="fas fa-spray-can-sparkles"></i>
+        <span>SparkClean</span>
+      </a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#booking-quote">Booking</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <a href="#booking-quote" class="header-quote-btn btn btn-primary btn-small">Get Free Quote</a>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why-us">Why Us</a></li>
+      <li><a href="#booking-quote">Get Quote</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- Floating Elements -->
+<a href="https://wa.me/27796499879?text=Hello!%20I%20need%20a%20cleaning%20quote" class="floating-wa" target="_blank" rel="noopener">
+  <i class="fab fa-whatsapp"></i>
+</a>
+<a href="#booking-quote" class="sticky-book">
+  <i class="fas fa-calendar-check"></i> <span>Book Now</span>
+</a>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <h1>Spotless Homes &amp; Offices,<br>Guaranteed</h1>
+        <p>Professional cleaning services across Gauteng. Trusted, insured, and eco-friendly.</p>
+        <div class="hero-buttons">
+          <a href="#booking-quote" class="btn btn-primary">Get Free Quote</a>
+          <a href="tel:+27796499879" class="btn btn-outline">Call Now</a>
+        </div>
+      </div>
+
+      <div class="hero-image-container">
+        <img src="images/heroCleaning.jfif" alt="Professional cleaning team delivering sparkling results" class="hero-image" loading="lazy">
+        <div class="guarantee-badge">
+          100% Satisfaction Guaranteed
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="container" style="margin-top: -2.5rem; margin-bottom: 2rem;">
+  <div class="trust-icons">
+    <div class="trust-item"><i class="fas fa-shield-alt"></i> Fully Insured</div>
+    <div class="trust-item"><i class="fas fa-user-check"></i> Vetted Staff</div>
+    <div class="trust-item"><i class="fas fa-leaf"></i> Eco-Friendly</div>
+    <div class="trust-item"><i class="fas fa-smile-wink"></i> Satisfaction Guaranteed</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">From regular maintenance to deep cleans — we’ve got you covered.</p>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-home"></i>
+        <h3>Residential Cleaning</h3>
+        <ul class="service-list">
+          <li>✓ Weekly &amp; Bi-weekly</li>
+          <li>✓ Move-in / Move-out</li>
+          <li>✓ One-time Deep Clean</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-building"></i>
+        <h3>Commercial Cleaning</h3>
+        <ul class="service-list">
+          <li>✓ Offices &amp; Retail</li>
+          <li>✓ Schools &amp; Daycares</li>
+          <li>✓ Medical Facilities</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-bacterium"></i>
+        <h3>Deep &amp; Specialist Cleaning</h3>
+        <ul class="service-list">
+          <li>✓ Kitchen &amp; Bathroom</li>
+          <li>✓ Post-Renovation</li>
+          <li>✓ Spring Cleaning</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-wind"></i>
+        <h3>Specialized Services</h3>
+        <ul class="service-list">
+          <li>✓ Carpet &amp; Upholstery</li>
+          <li>✓ Window Cleaning</li>
+          <li>✓ Sanitization</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE & AFTER (ENHANCED WITH IMAGE PLACEHOLDERS) -->
+<section style="background: var(--light-bg);">
+  <div class="container">
+    <h2 class="section-title">Before &amp; After</h2>
+    <p class="section-subtitle">Real results. Real transformation. See the SparkClean difference.</p>
+    <div class="gallery-grid">
+      <!-- Kitchen Before/After Card -->
+      <div class="before-after-card">
+        <div class="ba-compare">
+          <div class="ba-side before-side">
+            <div class="ba-img before-img">
+              <div class="ba-placeholder">
+                <i class="fas fa-kitchen-set fa-3x"></i>
+                <span class="ba-label-text">BEFORE</span>
+              </div>
+            </div>
+            <div class="ba-caption">Kitchen Before</div>
+          </div>
+          <div class="ba-arrow"><i class="fas fa-arrow-right"></i></div>
+          <div class="ba-side after-side">
+            <div class="ba-img after-img">
+              <div class="ba-placeholder">
+                <i class="fas fa-spray-can-sparkles fa-3x"></i>
+                <span class="ba-label-text">AFTER</span>
+              </div>
+            </div>
+            <div class="ba-caption">Kitchen After</div>
+          </div>
+        </div>
+      </div>
+      <!-- Living Room Before/After Card -->
+      <div class="before-after-card">
+        <div class="ba-compare">
+          <div class="ba-side before-side">
+            <div class="ba-img before-img living-before">
+              <div class="ba-placeholder">
+                <i class="fas fa-couch fa-3x"></i>
+                <span class="ba-label-text">BEFORE</span>
+              </div>
+            </div>
+            <div class="ba-caption">Living Room Before</div>
+          </div>
+          <div class="ba-arrow"><i class="fas fa-arrow-right"></i></div>
+          <div class="ba-side after-side">
+            <div class="ba-img after-img living-after">
+              <div class="ba-placeholder">
+                <i class="fas fa-star-of-life fa-3x"></i>
+                <span class="ba-label-text">AFTER</span>
+              </div>
+            </div>
+            <div class="ba-caption">Living Room After</div>
+          </div>
+        </div>
+      </div>
+      <!-- Bathroom Before/After Card -->
+      <div class="before-after-card">
+        <div class="ba-compare">
+          <div class="ba-side before-side">
+            <div class="ba-img before-img bath-before">
+              <div class="ba-placeholder">
+                <i class="fas fa-bath fa-3x"></i>
+                <span class="ba-label-text">BEFORE</span>
+              </div>
+            </div>
+            <div class="ba-caption">Bathroom Before</div>
+          </div>
+          <div class="ba-arrow"><i class="fas fa-arrow-right"></i></div>
+          <div class="ba-side after-side">
+            <div class="ba-img after-img bath-after">
+              <div class="ba-placeholder">
+                <i class="fas fa-water fa-3x"></i>
+                <span class="ba-label-text">AFTER</span>
+              </div>
+            </div>
+            <div class="ba-caption">Bathroom After</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why-us">
+  <div class="container">
+    <h2 class="section-title">Why Choose SparkClean</h2>
+    <div class="why-grid">
+      <div class="why-item"><i class="fas fa-user-tie"></i> <span>Experienced &amp; Trained Team</span></div>
+      <div class="why-item"><i class="fas fa-calendar-alt"></i> <span>Flexible Scheduling</span></div>
+      <div class="why-item"><i class="fas fa-wallet"></i> <span>Transparent Pricing</span></div>
+      <div class="why-item"><i class="fas fa-search-plus"></i> <span>Attention to Detail</span></div>
+      <div class="why-item"><i class="fas fa-seedling"></i> <span>Eco-Friendly Products</span></div>
+      <div class="why-item"><i class="fas fa-medal"></i> <span>100% Satisfaction Guarantee</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING / QUOTE FORM -->
+<section id="booking-quote" style="background: #f8fafc;">
+  <div class="container">
+    <h2 class="section-title">Get Your Instant Quote</h2>
+    <div class="steps">
+      <div class="step"><div class="step-number">1</div><h3>Submit Request</h3></div>
+      <div class="step"><div class="step-number">2</div><h3>We Contact You</h3></div>
+      <div class="step"><div class="step-number">3</div><h3>Enjoy Clean Space</h3></div>
+    </div>
+
+    <div class="quote-form-container">
+      <h3 class="form-title">📅 Book Your Cleaning</h3>
+      <form id="quoteForm">
+        <div class="form-group">
+          <div class="input-icon">
+            <i class="fas fa-user"></i>
+            <input type="text" id="fullName" placeholder="Full Name" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-icon">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="email" placeholder="Email (optional)">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-icon">
+            <i class="fab fa-whatsapp"></i>
+            <input type="tel" id="phone" placeholder="WhatsApp Number" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-icon">
+            <i class="fas fa-broom"></i>
+            <select id="serviceType">
+              <option value="">Select Service</option>
+              <option>Residential Cleaning</option>
+              <option>Commercial Cleaning</option>
+              <option>Deep Cleaning</option>
+              <option>Move Out Cleaning</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="date-picker-wrapper">
+            <i class="fas fa-calendar-alt date-icon"></i>
+            <input type="text" id="serviceDate" placeholder="Preferred Date" class="date-input" readonly>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+          <i class="fas fa-paper-plane"></i> Request Quote
+        </button>
+      </form>
+      <div id="quoteMessage" class="quote-message"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="container">
+    <h2 class="section-title">Simple Pricing</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Standard Home</h3>
+        <div class="price">R450</div>
+        <p>Weekly / Bi-weekly</p>
+      </div>
+      <div class="price-card">
+        <h3>Deep Clean</h3>
+        <div class="price">R850</div>
+        <p>Kitchen + Bathrooms</p>
+      </div>
+      <div class="price-card">
+        <h3>Move-Out</h3>
+        <div class="price">R950+</div>
+        <p>Full property reset</p>
+      </div>
+      <div class="price-card">
+        <h3>Commercial</h3>
+        <div class="price">Custom</div>
+        <p>Tailored quote</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq" id="faqContainer">
+      <div class="faq-item">
+        <div class="faq-question">Do I need to provide cleaning supplies? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-answer">No, we bring everything needed including eco-friendly products.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Are your staff trained and insured? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-answer">Yes, all our cleaners are fully vetted, trained, and insured for your peace of mind.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Do you offer one-time cleaning? <i class="fas fa-chevron-down"></i></div>
+        <div class="faq-answer">Absolutely! We offer one-time deep cleans, move-in/out cleans, and regular schedules.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section>
+  <div class="container">
+    <div class="cta-banner">
+      <h2>Ready for a sparkling clean space?</h2>
+      <a href="#booking-quote" class="btn btn-secondary">Get Your Free Quote Today</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4><i class="fas fa-spray-can-sparkles"></i> SparkClean</h4>
+        <p>Professional &amp; Reliable Cleaning Services in Gauteng</p>
+        <p><i class="fas fa-phone-alt"></i> +27 79 649 9879</p>
+        <p><i class="fab fa-whatsapp"></i> WhatsApp for quick quotes</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Service Areas</h4>
+        <ul>
+          <li>Johannesburg</li>
+          <li>Pretoria</li>
+          <li>Centurion</li>
+          <li>Midrand</li>
+          <li>Sandton</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2026 SparkClean. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="script.js"></script>
+</body>
+</html>
